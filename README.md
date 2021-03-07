@@ -1,8 +1,8 @@
 # cool844
 
-![](img/IMG_0667.jpg)
-![](img/IMG_0668.jpg)
-![](img/IMG_0669.jpg)
+![](img/IMG_0667.JPG)
+![](img/IMG_0668.JPG)
+![](img/IMG_0669.JPG)
 
 ## build guide
 
