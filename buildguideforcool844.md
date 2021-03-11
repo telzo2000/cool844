@@ -4,12 +4,13 @@
 
 スイッチプレート　１枚<br>
 PCB １枚<br>
-M2スペーサー10mm 5個<br>
-M2ネジ15mm 5本<br>
-ウレタンケーブル25cm<br>
+
 
 
 ## ◯別途に購入するもの（１）
+M2スペーサー10mm 5個<br>
+M2ネジ15mm 5本<br>
+ウレタンケーブル25cm<br>
 ダイオード　44本<br>
 MXソケット　44個<br>
 タクトスイッチ　1個<br>
@@ -19,7 +20,7 @@ MXソケット　44個<br>
 pro micro １個<br>
 スプリングピンヘッダ（マックエイトコンスルー）２個<br>
 フルカラーシリアルLEDテープ　２枚<br>
-※これらのものについては、[遊舎工房](https://shop.yushakobo.jp)、[TALP KEYBOARDs](https://talpkeyboard.stores.jp)、[KOCHI KEYBOARD](https://kochikeyboard.stores.jp)等国内で自作キーボードに関する部品等を取り扱っているお店で購入することができます。
+※これらのものについては、[遊舎工房](https://shop.yushakobo.jp)、[TALP KEYBOARDs](https://talpkeyboard.stores.jp)、[KOCHI KEYBOARD](https://kochikeyboard.stores.jp)等国内で自作キーボードに関する部品等を取り扱っているお店で購入することができます。M2スペーサー10mmは、外径の小さいものが最適です[KOCHI KEYBOARD](https://kochikeyboard.stores.jp)で[取り扱っているもの](https://kochikeyboard.stores.jp/items/5f8aabbdd24eee436e27e967)を推奨します。
 <br>
 
 ## ◯別途に購入するもの（２）
@@ -37,7 +38,7 @@ pro micro １個<br>
 　（もし、出来ましたら、ご連絡いただけると、ビルドガイドに、そのことを記載したいと思います）<br>
 ピンの情報は次の通りです。<br>
 ![](img/img03.png)
-　ここでは、Keyboard Firmware Builderで作成した、デフォルトJsonファイル（）とデフォルトHexファイル（）を下記のリンク先に置きます。ダウンロードして、QMK Toolboxにて使用してください。QMK Toolboxは下記のリンク先にあります。<br>
+　ここでは、Keyboard Firmware Builderで作成した [デフォルトJsonファイル](https://github.com/telzo2000/cool844)と[デフォルトHexファイル](https://github.com/telzo2000/cool844)を下記のリンク先に置きます。ダウンロードして、QMK Toolboxにて使用してください。QMK Toolboxは下記のリンク先にあります。<br>
 　[QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)
 <br>
 　[デフォルトhexファイル](https://github.com/telzo2000/cool844)
