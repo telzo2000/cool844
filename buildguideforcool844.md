@@ -90,7 +90,7 @@ PCB裏面にresetと書かれた箇所があります。そこにタクトスイ
 pro microを装着したさ、pro microの基板がたくさん載っている側が下向きになります。cool836AのVer.C+（イエローバージョン）と同じ付け方になります。
 
 ### ６ ドーターボードの作成と取り付け
-ドーターボードの作成は[こちら]()になります。取り付け方は、次の画像を参考にしてください。<br>
+ドーターボードの作成は[こちら](https://github.com/telzo2000/Hello_keyboard/blob/main/dbforcool844/buildlog.md)になります。取り付け方は、次の画像（試作品）を参考にしてください。<br>
 ![](img/IMG_4257.jpg)
 ![](img/IMG_4255.jpg)
 ![](img/IMG_4256.jpg)
