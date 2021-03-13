@@ -5,7 +5,7 @@
 ![](img/IMG_0669.JPG)
 
 ## build guide
-
+[こちら](https://github.com/telzo2000/cool844/blob/main/buildguideforcool844.md)です。<br>
 
 ## 設計に至るまで（Up to the design）
 <br>
