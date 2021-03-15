@@ -35,9 +35,9 @@ pro micro １個<br>
 ## ◯ファームウェア
 <br>　このキーボードはQMKというキーボード用のソフトウェアで動作するようにプログラミングしています。<br>
 （令和３年３月１５日追記）[オタヒーのサメ@otahinosame](https://twitter.com/otahinosame)さんが[VIA対応ファームウェア](https://github.com/telzo2000/cool844/tree/main/via%40otahinosame/cool844)をご提供くださいました。本当にありがとうございます。[VIA](https://github.com/the-via/releases/tags)でキーマップを修正したい方はぜひ、ご活用ください。VIAの使い方について詳細な解説は、[サリチル酸さんの「（初心者編）VIAを使ってキーマップを書き換えよう」](https://salicylic-acid3.hatenablog.com/entry/via-manual)と言う記事がお勧めです。
-<br>
+<br><br>
 （令和３年３月１４日追記）qmk_firmware内にcool844の[ファームウェア](https://github.com/telzo2000/cool844/tree/main/qmk_firmware/keyboards/cool844)を用意しました。まだ、プルリク等はしていません。私自身がよくわかっていないので、今後の学習を兼ねてプルリクするつもりですが、自信がありません。
-<br>
+<br><br>
 ここからは以前の記述です。ご自身の環境下でqmk_firmwarで作業できない人は、ここからの方法をおすすめします。また、最近出たREMAPへの対応も前向きに検討中です。<br>
 　作者が非IT系であることから、自力でファームウェアを作成していません。[Keyboard Firmware builder](https://kbfirmware.com/)を利用して、hexファイルを作成しました。[QMK Configurator](https://config.qmk.fm/#/)にプルリクする等すれば、QMKConfiguratorを使用してキーレイアウトを変更できますが、作者には、その力がありません。有識者の方で出来る方がいらっしゃれば、よろしくお願いします。<br>
 　（もし、出来ましたら、ご連絡いただけると、ビルドガイドに、そのことを記載したいと思います）<br>
