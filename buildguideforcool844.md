@@ -52,7 +52,9 @@ REMAPのサイトへアクセスしてください。<br>
 ![](img/remap002.png)
 キーボードとパソコンが繋がっていれば、次のような表示でます。
 ![](img/remap003.png)
-cool844を選び、「接続」をクリックしてください。
+cool844を選び、「接続」をクリックしてください。<br>
+（令和３年３月２１日加筆）[Yoichiro Tanaka@yoichiro](https://twitter.com/yoichiro)さんにご教授頂き、REMAPへの登録ができました。本当にありがとうございます。接続すると、そのまま編集画面に変わります。<br>
+
 ![](img/remap004.png)
 
 <br>
