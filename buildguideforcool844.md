@@ -41,8 +41,11 @@ pro micro １個<br>
 　QMK Toolboxの使い方は詳しく書きませんが、REMAP用のhexファイルをダウンロードして、「Local File」で選択してください。pro microをPCに接続し、リセットボタンを押して書き込みます。（リセットボタンをダブルクリックしないと書き込めないパターンのものもあります）<br>
 　書き込み方法などは[サリチル酸さんの（初心者編）自作キーボードにファームウェアを書き込むの記事](https://salicylic-acid3.hatenablog.com/entry/qmk-configurator)がとても参考になります。
 <br>
+<br>
+
 次に
 REMAPのサイトへアクセスしてください。<br>
+
 ![](img/remap001.png)
 画面中央の「＋KEYBOARD」をクリックしてください。<br>
 <br>
@@ -53,10 +56,10 @@ cool844を選び、「接続」をクリックしてください。
 ![](img/remap004.png)
 
 <br>
-その後、Jsonファイルを要求してきます。
+その後、REMAPのサイトはJsonファイルを要求してきます。
 
 ![](img/remap005.png)
-中央に、先ほどダウンロードしたREMAP用のJsonファイルをドラッグ＆ドロップしてください。<br>
+中央に、先ほどダウンロードしたREMAP用のJsonファイルをドラッグ＆ドロップ（またはアップロード）してください。<br>
 
 ![](img/remap006.png)
 そうすると、REMAPのサイト上で、cool844のキーレイアウトを編集することができます。この下に書く、VIAやKEYBOARD FIRMWARE BUILDERより簡単にキーレイアウトの編集ができると思います。ご活用ください。<br>
