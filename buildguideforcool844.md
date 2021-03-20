@@ -34,6 +34,33 @@ pro micro １個<br>
 
 ## ◯ファームウェア
 <br>　このキーボードはQMKというキーボード用のソフトウェアで動作するようにプログラミングしています。<br>
+（令和３年３月２０日追記）[REMAP](https://remap-keys.app/configure)に対応しました。使い方は次の通りです。<br>
+最初に、cool844にREMAP用のhexファイル「[cool844_via.hex](https://github.com/telzo2000/cool844)」とREMAP用のJsonファイル「[cool844_remap.json](https://github.com/telzo2000/cool844)」をダウンロードしてQMK Toolboxにて使用してください。QMK Toolboxは下記のリンク先にあります。<br>
+　[QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)
+
+　QMK Toolboxの使い方は詳しく書きませんが、REMAP用のhexファイルをダウンロードして、「Local File」で選択してください。pro microをPCに接続し、リセットボタンを押して書き込みます。（リセットボタンをダブルクリックしないと書き込めないパターンのものもあります）<br>
+　書き込み方法などは[サリチル酸さんの（初心者編）自作キーボードにファームウェアを書き込むの記事](https://salicylic-acid3.hatenablog.com/entry/qmk-configurator)がとても参考になります。
+<br>
+次に
+REMAPのサイトへアクセスしてください。<br>
+![](img/remap001.png)
+画面中央の「＋KEYBOARD」をクリックしてください。<br>
+<br>
+![](img/remap002.png)
+キーボードとパソコンが繋がっていれば、次のような表示でます。
+![](img/remap003.png)
+cool844を選び、「接続」をクリックしてください。
+![](img/remap004.png)
+
+<br>
+その後、Jsonファイルを要求してきます。
+
+![](img/remap005.png)
+中央に、先ほどダウンロードしたREMAP用のJsonファイルをドラッグ＆ドロップしてください。<br>
+
+![](img/remap006.png)
+そうすると、REMAPのサイト上で、cool844のキーレイアウトを編集することができます。この下に書く、VIAやKEYBOARD FIRMWARE BUILDERより簡単にキーレイアウトの編集ができると思います。ご活用ください。<br>
+
 （令和３年３月１５日追記）[オタヒーのサメ@otahinosame](https://twitter.com/otahinosame)さんが[VIA対応ファームウェア](https://github.com/telzo2000/cool844/tree/main/via%40otahinosame/cool844)をご提供くださいました。本当にありがとうございます。[VIA](https://github.com/the-via/releases/tags)でキーマップを修正したい方はぜひ、ご活用ください。VIAの使い方について詳細な解説は、[サリチル酸さんの「（初心者編）VIAを使ってキーマップを書き換えよう」](https://salicylic-acid3.hatenablog.com/entry/via-manual)と言う記事がお勧めです。
 <br><br>
 （令和３年３月１４日追記）qmk_firmware内にcool844の[ファームウェア](https://github.com/telzo2000/cool844/tree/main/qmk_firmware/keyboards/cool844)を用意しました。まだ、プルリク等はしていません。私自身がよくわかっていないので、今後の学習を兼ねてプルリクするつもりですが、自信がありません。
