@@ -31,83 +31,37 @@ pro micro １個<br>
 ## ◯別途に購入するもの（3）
 ケース
 ※GH60系60％キーボードケースを使うことを前提になっています。国内では[遊舎工房](https://shop.yushakobo.jp)等で、海外では[Ali Expresse](https://best.aliexpress.com/)等で同じようなケースを材質ごとに、見つけることができます。cool844がケース全てに使えるか確認することは、個人の裁量を超えます。購入者の自己責任でお願いします。
+<br>
 
 ## ◯ファームウェア
-<br>　このキーボードはQMKというキーボード用のソフトウェアで動作するようにプログラミングしています。<br>
-（令和３年３月２０日追記）[REMAP](https://remap-keys.app/configure)に対応しました。使い方は次の通りです。<br>
-最初に、cool844にREMAP用のhexファイル「[cool844_via.hex](https://github.com/telzo2000/cool844)」とREMAP用のJsonファイル「[cool844_remap.json](https://github.com/telzo2000/cool844)」をダウンロードしてQMK Toolboxにて使用してください。QMK Toolboxは下記のリンク先にあります。<br>
-　[QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)
+このキーボードはQMKというキーボード用のソフトウェアで動作するようにプログラミングしています。<br>
+[Yoichiro Tanaka@yoichiro](https://twitter.com/yoichiro)さん等が開発した[REMAP](https://remap-keys.app/)が使用できます。
+<br>
+pro microとPCをUSBケーブルで繋ぎ、google chromeで[REMAP](https://remap-keys.app/)サイトへアクセスしてください。<br>
 
-　QMK Toolboxの使い方は詳しく書きませんが、REMAP用のhexファイルをダウンロードして、「Local File」で選択してください。pro microをPCに接続し、リセットボタンを押して書き込みます。（リセットボタンをダブルクリックしないと書き込めないパターンのものもあります）<br>
-　書き込み方法などは[サリチル酸さんの（初心者編）自作キーボードにファームウェアを書き込むの記事](https://salicylic-acid3.hatenablog.com/entry/qmk-configurator)がとても参考になります。
-<br>
-<br>
+![](img/img00079.jpg)
 
-次に
-REMAPのサイトへアクセスしてください。<br>
-
-![](img/remap001.png)
-画面中央の「＋KEYBOARD」をクリックしてください。<br>
+画面中央の「KEYBOARD CATALOG」をクリックしてください。<br>
+画面が変わりましたら、左上の「Keyboard Name」に「cool」と
+入力して、下部の「SEARCH」をクリックしてください。
 <br>
-![](img/remap002.png)
-キーボードとパソコンが繋がっていれば、次のような表示でます。
-![](img/remap003.png)
-cool844を選び、「接続」をクリックしてください。<br>
-（令和３年３月２１日加筆）[Yoichiro Tanaka@yoichiro](https://twitter.com/yoichiro)さんにご教授頂き、REMAPへの登録ができました。本当にありがとうございます。接続すると、そのまま編集画面に変わります。<br>
-
-![](img/remap004.png)
-
+coolシリーズのキーボードが表示されます。
+![](img/img00080.jpg)
+この中から、該当するキーボードを選び、クリックしてください。
 <br>
-その後、REMAPのサイトはJsonファイルを要求してきます。
-
-![](img/remap005.png)
-中央に、先ほどダウンロードしたREMAP用のJsonファイルをドラッグ＆ドロップ（またはアップロード）してください。<br>
-
-![](img/remap006.png)
-そうすると、REMAPのサイト上で、cool844のキーレイアウトを編集することができます。この下に書く、VIAやKEYBOARD FIRMWARE BUILDERより簡単にキーレイアウトの編集ができると思います。ご活用ください。<br>
-
-（令和３年３月１５日追記）[オタヒーのサメ@otahinosame](https://twitter.com/otahinosame)さんが[VIA対応ファームウェア](https://github.com/telzo2000/cool844/tree/main/via%40otahinosame/cool844)をご提供くださいました。本当にありがとうございます。[VIA](https://github.com/the-via/releases/tags)でキーマップを修正したい方はぜひ、ご活用ください。VIAの使い方について詳細な解説は、[サリチル酸さんの「（初心者編）VIAを使ってキーマップを書き換えよう」](https://salicylic-acid3.hatenablog.com/entry/via-manual)と言う記事がお勧めです。
-<br><br>
-（令和３年３月１４日追記）qmk_firmware内にcool844の[ファームウェア](https://github.com/telzo2000/cool844/tree/main/qmk_firmware/keyboards/cool844)を用意しました。まだ、プルリク等はしていません。私自身がよくわかっていないので、今後の学習を兼ねてプルリクするつもりですが、自信がありません。
-<br><br>
-ここからは以前の記述です。ご自身の環境下でqmk_firmwarで作業できない人は、ここからの方法をおすすめします。また、最近出たREMAPへの対応も前向きに検討中です。<br>
-　作者が非IT系であることから、自力でファームウェアを作成していません。[Keyboard Firmware builder](https://kbfirmware.com/)を利用して、hexファイルを作成しました。[QMK Configurator](https://config.qmk.fm/#/)にプルリクする等すれば、QMKConfiguratorを使用してキーレイアウトを変更できますが、作者には、その力がありません。有識者の方で出来る方がいらっしゃれば、よろしくお願いします。<br>
-　（もし、出来ましたら、ご連絡いただけると、ビルドガイドに、そのことを記載したいと思います）<br>
-ピンの情報は次の通りです。<br>
-![](img/img03.png)
-　ここでは、Keyboard Firmware Builderで作成した [デフォルトJsonファイル](https://github.com/telzo2000/cool844)と[デフォルトHexファイル](https://github.com/telzo2000/cool844)を下記のリンク先に置きます。ダウンロードして、QMK Toolboxにて使用してください。QMK Toolboxは下記のリンク先にあります。<br>
-　[QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)
+例えば、cool844であれば、次の画面に変わります。
+そこでタブの「FIRMWARE」をクリックすると、
+![](img/img00081.jpg)
+このように、via用hexファイルが表示されます。
+「FLASH」をクリックすると、
+![](img/img00082.jpg)
+Flash Firmwareが起動して、pro microへの書き込みができます。
 <br>
-　[デフォルトhexファイル](https://github.com/telzo2000/cool844)
+以上で、pro microへのファームウェアの書き込みは完了です。
 <br>
-　[デフォルトJsonファイル](https://github.com/telzo2000/cool844)
-　<br>
-　QMK Toolboxの使い方は詳しく書きませんが、デフォルトhexファイルをダウンロードして、「Local File」で選択してください。pro microをPCに接続し、リセットボタンを押して書き込みます。（リセットボタンをダブルクリックしないと書き込めないパターンのものもあります）<br>
-　書き込み方法などは[サリチル酸さんの（初心者編）自作キーボードにファームウェアを書き込むの記事](https://salicylic-acid3.hatenablog.com/entry/qmk-configurator)がとても参考になります。他にも有用な記事が多いので、一読することをお勧めします。<br>
-　デフォルトキーマップは作者が実際に使用しているもので、ほぼ何不自由なく使えるように工夫しています。チートシートは次のとおりです。<br>
-Layer=0<br>
-![](img/img01.png)
-<br>
-Layer=1<br>
-![](img/img06.png)
-<br>
-Layer=2<br>
-![](img/img05.png)
-<br>
-Layer=3<br>
-![](img/img04.png)
-<br>
-　キーレイアウトの変更をされる場合は、事前に、[デフォルトJsonファイル](https://github.com/telzo2000/cool844)をダウンロードしてから、[Keyboard Firmware builder](https://kbfirmware.com/)へアクセスしてください。「Upload」をクリックして、先ほどのデフォルトJsonファイルを選択してください。下の画面になりましたら、「KEYMAP」をクリックしてください。その画面でキーレイアウトの変更ができます。<br>
-![](img/img02.png)
-<br>
-　（「WIRING」「PINS」は絶対に変更しないでください。ここを変更して作成したHexファイルでは正しくキーが入力されなくなります。）変更ができましたら、「SETTING」をクリックしてください。下の画面になりましたら、「Save Configuration」をクリックしてください。変更されたキーレイアウトのJsonファイルがダウンロードされます。次回以降、それを使うことで、変更履歴を意識しながら、最高のキーレイアウトへ到着できると思います。<br>
-![](img/img07.png)
-<br>
-　続いて、「COMPILE」をクリックしてください。下の画面になりましたら、「Download .hex」をクリックしてください。変更されたキーレアウトのHexフィルがダウンロードされます。このHexファイルを前述のQMK Toolboxで使用してください。<br>
-<img width="796" alt="kfbscreenshot3" src="https://user-images.githubusercontent.com/67196597/93778286-b01d6d80-fc60-11ea-9c7b-53224d08bf6d.png">
+REMAPのおかげで、自作キーボードのファームウェアの書き込み、キーレイアウトの変更が大変、簡単になりました。
 <br>
 <br>
-
 ## ◯組み立て
 
 ### １　表裏面の確認
